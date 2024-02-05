@@ -12,4 +12,8 @@ Route::get('/', function () {
 
 
 Route::get('/read-excel', [ExcelController::class, 'read_excel'])->name('read.excel');
+Route::get('/send-email', [ExcelController::class, 'send_email'])->name('send.email');
+
+
+
 
